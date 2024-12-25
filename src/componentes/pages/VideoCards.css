@@ -1,0 +1,145 @@
+
+.video-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #07D9D9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .video-card iframe {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .video-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .video-card p {
+    font-size: 1em;
+    margin: 0 0 10px 0;
+    color: #555;
+  }
+  
+  
+  .video-card button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+  }
+  
+  .video-card button:hover {
+    background-color: #0056b3;
+  }
+ 
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+}
+
+.video-list .card {
+  margin-bottom: 20px;
+}
+
+.edit-form{
+  display: flex;
+
+}
+
+
+.video-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+
+.edit-form label {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.edit-form input:focus,
+.edit-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+  outline: none;
+}
+
+
+.edit-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+
+.edit-actions button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-actions button[type="submit"] {
+  background-color: #28a745; 
+}
+
+.edit-actions button[type="submit"]:hover {
+  background-color: #218838; 
+}
+
+.edit-actions button[type="button"] {
+  background-color: #dc3545;
+}
+
+.edit-actions button[type="button"]:hover {
+  background-color: #c82333; 
+}
